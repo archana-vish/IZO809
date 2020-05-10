@@ -3,7 +3,7 @@ package com.av8242n.NumberFormatter;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class TestNumberFormat {
+public class FormatNumbers {
     public static void main(String[] args) throws Exception {
 
         Locale gb = Locale.getDefault();

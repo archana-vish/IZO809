@@ -1,3 +1,5 @@
+package resources;
+
 import java.util.ListResourceBundle;
 
 public class Zoo extends ListResourceBundle {
@@ -5,7 +7,7 @@ public class Zoo extends ListResourceBundle {
     @Override
     protected Object[][] getContents() {
         return new Object[][]{
-                {"name", "London Zoo"}
+                {"name", "London resources.Zoo"}
         };
     }
 }

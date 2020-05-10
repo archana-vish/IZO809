@@ -1,4 +1,4 @@
-package com.av8242n.datetime.resources;
+package resources;
 
 import java.util.ListResourceBundle;
 

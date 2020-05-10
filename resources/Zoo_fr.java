@@ -1,3 +1,5 @@
+package resources;
+
 import java.util.ListResourceBundle;
 
 public class Zoo_fr extends ListResourceBundle {
