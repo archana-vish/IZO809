@@ -1,7 +1,6 @@
 package com.av8242n.datetime;
 
-import java.time.LocalDateTime;
-import java.time.Period;
+import java.time.*;
 
 public class PeriodManipulation {
 
@@ -32,8 +31,16 @@ public class PeriodManipulation {
         System.out.println("Adding all " + localDateTime.plus(Period.of(1,1,1)));
 
 
+        LocalDate today = LocalDate.now();
+        LocalDate tomorrow = today.plusDays(1);
+        Period gap = Period.between(tomorrow, today);
+        System.out.println(gap);
 
 
+        LocalTime now = LocalTime.now();
+        LocalTime anHourLater = now.plusHours(1);
+        Duration timeGap = Duration.between(now, anHourLater);
+        System.out.println(timeGap);
 
     }
 }
